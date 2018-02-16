@@ -6,14 +6,14 @@ except ImportError:
 config = {
 	'description': 'Rename Files with American Style Dates to European Style Dates',
 	'author': 'Sunny Lam',
-	'url': 'URL to get it at',
-	'download_url': 'Where to download it',
+	'url': 'https://github.com/sunnylam13/renameDates_021618_1',
+	'download_url': 'https://github.com/sunnylam13/renameDates_021618_1',
 	'author_email': 'sunny.lam@gmail.com',
 	'version': '0.1',
 	'install_requires': ['nose'],
 	'packages': ['zipfile'],
 	'scripts': [],
-	'name': 'Change Dates'
+	'name': 'Change American to European Dates'
 }
 
 setup(**config)
