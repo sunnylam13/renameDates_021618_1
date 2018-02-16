@@ -22,6 +22,18 @@ The concept can be adapted to any number of other uses.
 
 * if it has a date, rename the file with `shutil.move()`
 
+## Example Filenames Targeted
+
+target...
+
+spam4-4-1984.txt
+
+01-03-2014eggs.zip
+
+ignore...
+
+littlebrother.epub
+
 ## References
 
 folder:  renameDates_021618_1

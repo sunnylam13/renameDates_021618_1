@@ -12,6 +12,8 @@ import shutil, os, re
 #####################################
 
 # create a regex that matches files with the American date format
+# Reference
+# https://regexr.com/3ku5m
 
 datePattern = re.compile(r'''
 		(
