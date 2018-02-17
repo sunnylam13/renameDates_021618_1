@@ -61,12 +61,20 @@ for amerFilename in os.listdir('.'):
 
 # form the European style filename
 
-
+euroFilename = beforePart + dayPart + "-" + monthPart + "-" + yearPart + afterPart
 
 # get the full, absolute file paths
+# os.path.join() handles the entire looping process so you don't have to write your own loop
 
+absWorkingDir = os.path.abspath('.')
+amerFilename = os.path.join(absWorkingDir,amerFilename) 
+euroFilename = os.path.join(absWorkingDir,euroFilename)
 
 # rename the files
+
+print('Renaming "%s" to "%s"...  ' % (amerFilename,euroFilename))
+# shutil.move(amerFilename,euroFilename) # uncomment after testing
+
 
 #####################################
 # END FILE PROCESSING
