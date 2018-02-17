@@ -56,7 +56,17 @@ While years like 1785 is valid, the regex pattern can use just 20 and 21st centu
 
 i.e.  11-12-2000.txt
 
+## Additional Uses or Derivations
 
+This program can be adapted to do things like...
+
+* add a prefix to file names
+
+* change filenames with Euro dates to American dates instead
+
+* remove zeros from files like `photo0056.jpg`
+
+etc...
 
 ## References
 
