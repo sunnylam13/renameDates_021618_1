@@ -26,7 +26,7 @@ datePattern = re.compile(r'''
 #####################################
 
 #####################################
-# FILE PROCESSING
+# FILE COMPILE
 #####################################
 
 # Loop over the files in the working directory
@@ -37,10 +37,11 @@ for amerFilename in os.listdir('.'):
 	# skip files without a date
 	
 	if mo == None:
-		continue
+		continue # skip the rest of the loop and move onto the next filename
 
 	# get the different parts of the filename
 	# the groups are in the order of () in the regex statement used (see `datePattern` in REGEX)
+	# parts are used to form the European style filename
 	# see notes on "Nested Brackets of Groups" on counting brackets (python-notes-051416/regex-py3-090317-1.md)
 	
 	beforePart = mo.group(1)
@@ -50,13 +51,24 @@ for amerFilename in os.listdir('.'):
 	afterPart = mo.group(8)
 
 #####################################
-# END FILE PROCESSING
+# END FILE COMPILE
 #####################################
 
-# TODO:  Loop over the files in the working directory
-# TODO:  skip files without a date
-# TODO:  get the different parts of the filename
-# TODO:  form the European style filename
-# TODO:  get the full, absolute file paths
-# TODO:  rename the files
+
+#####################################
+# FILE PROCESSING
+#####################################
+
+# form the European style filename
+
+
+
+# get the full, absolute file paths
+
+
+# rename the files
+
+#####################################
+# END FILE PROCESSING
+#####################################
 
