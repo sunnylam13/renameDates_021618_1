@@ -28,3 +28,10 @@ datePattern = re.compile(r'''
 # END REGEX
 #####################################
 
+# TODO:  Loop over the files in the working directory
+# TODO:  skip files without a date
+# TODO:  get the different parts of the filename
+# TODO:  form the European style filename
+# TODO:  get the full, absolute file paths
+# TODO:  rename the files
+
